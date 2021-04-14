@@ -40,9 +40,9 @@ class Vpn_controller extends CI_Controller
       $password = $this->input->post('password', TRUE);
 
       if ($this->Vpn_model->create_vpn($usuario, $password)) {
-        $this->output->set_status_header(200)->set_content_type('application/json')->set_output('vpn creada');
+        $this->output->set_status_header(200)->set_content_type('application/json')->set_output(json_encode(['vpn creada']));
       } else {
-        $this->output->set_status_header(500)->set_content_type('application/json')->set_output('error interno');
+        $this->output->set_status_header(500)->set_content_type('application/json')->set_output(json_encode(['error interno']));
       }
     } else {
       $errores = [
