@@ -2,7 +2,7 @@
 	<div class="row align-items-center">
 
 		<div class="col-sm-6">
-			<h4 class="page-title">Crear VPN</h4>
+			<h4 class="page-title">Crear VPN </h4>
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item active">Bienvenido al asistente de creacion de VPNS</li>
 			</ol>
