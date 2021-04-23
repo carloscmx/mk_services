@@ -54,4 +54,4 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['vpn'] = 'Vpn_controller';
-$route['vpn/insert'] = 'Vpn_controller/insert_vpn';
+$route['protected_servies/exec_function_vpn'] = 'Vpn_controller/insert_vpn';

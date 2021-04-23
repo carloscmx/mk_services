@@ -49,7 +49,7 @@
 		e.preventDefault();
 		$.ajax({
 			type: 'POST',
-			url: '<?= base_url('Vpn_controller/insert_vpn') ?>',
+			url: '<?= base_url('protected_servies/exec_function_vpn') ?>',
 			data: $(this).serialize(),
 			dataType: 'json',
 			success: function(response) {
