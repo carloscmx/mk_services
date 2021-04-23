@@ -13,12 +13,11 @@ class Vpn_controller extends CI_Controller
 
   public function index()
   {
-    $data['token']  = $this->vpn->tokenCode();
 
 
     $this->load->view('template/Head_view');
     $this->load->view('template/Navbar_view');
-    $this->load->view('apps_pages/welcome_message',$data);
+    $this->load->view('apps_pages/welcome_message');
     $this->load->view('template/Footer_view');
   }
 
