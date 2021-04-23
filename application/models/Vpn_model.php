@@ -63,6 +63,11 @@ class Vpn_model extends CI_Model
     }
   }
 
+  public function tokenCode(){
+   
+
+  }
+
   // ------------------------------------------------------------------------
 
 }
